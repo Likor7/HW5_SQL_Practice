@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.30, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.30, for macos12.4 (arm64)
 --
--- Host: localhost    Database: school
+-- Host: localhost    Database: school_hw_5
 -- ------------------------------------------------------
--- Server version	8.0.30-0ubuntu0.22.04.1
+-- Server version	8.0.30
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -138,7 +138,7 @@ CREATE TABLE `rozklad` (
 
 LOCK TABLES `rozklad` WRITE;
 /*!40000 ALTER TABLE `rozklad` DISABLE KEYS */;
-INSERT INTO `rozklad` VALUES (1,1,2,4,'14:00:00',NULL),(2,2,1,3,'09:00:00',NULL),(3,3,3,1,'12:00:00',NULL),(4,4,4,5,'15:00:00',NULL);
+INSERT INTO `rozklad` VALUES (1,1,2,4,'14:00:00',4),(2,2,1,3,'09:00:00',3),(3,3,3,1,'12:00:00',1),(4,4,4,5,'15:00:00',2);
 /*!40000 ALTER TABLE `rozklad` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -203,4 +203,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-10-04 20:43:31
+-- Dump completed on 2022-10-09 11:29:55
